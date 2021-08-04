@@ -1,0 +1,10 @@
+C:\Users\Matheus Eleodoro\source\repos\InfoFromText\bin\Debug\InfoFromText.dll
+C:\Users\Matheus Eleodoro\source\repos\InfoFromText\bin\Debug\InfoFromText.pdb
+C:\Users\Matheus Eleodoro\source\repos\InfoFromText\obj\Debug\InfoFromTextDesign.baml
+C:\Users\Matheus Eleodoro\source\repos\InfoFromText\obj\Debug\InfoFromTextDesign.g.cs
+C:\Users\Matheus Eleodoro\source\repos\InfoFromText\obj\Debug\InfoFromText_MarkupCompile.cache
+C:\Users\Matheus Eleodoro\source\repos\InfoFromText\obj\Debug\InfoFromText.g.resources
+C:\Users\Matheus Eleodoro\source\repos\InfoFromText\obj\Debug\InfoFromText.csproj.CoreCompileInputs.cache
+C:\Users\Matheus Eleodoro\source\repos\InfoFromText\obj\Debug\InfoFromText.dll
+C:\Users\Matheus Eleodoro\source\repos\InfoFromText\obj\Debug\InfoFromText.pdb
+C:\Users\Matheus Eleodoro\source\repos\infoFromText\obj\Debug\InfoFromText.csproj.AssemblyReference.cache

@@ -1,0 +1,80 @@
+﻿<sap:ActivityDesigner x:Class="InfoFromText.InfoFromTextDesign"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:sap="clr-namespace:System.Activities.Presentation;assembly=System.Activities.Presentation"
+    xmlns:sapc="clr-namespace:System.Activities.Presentation.Converters;assembly=System.Activities.Presentation" xmlns:sapv="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation"
+    xmlns:s="clr-namespace:System;assembly=mscorlib"
+    Collapsible="True">
+    <sap:ActivityDesigner.Resources>
+        <sapc:ArgumentToExpressionConverter x:Key="ArgumentToExpressionConverter" />
+        <Style x:Key="ExpandedStyle" TargetType="{x:Type Grid}">
+            <Setter Property="Visibility" Value="Visible"/>
+            <Style.Triggers>
+                <DataTrigger Binding="{Binding Path=ShowExpanded}" Value="true">
+                    <Setter Property="Visibility" Value="Collapsed"/>
+                </DataTrigger>
+            </Style.Triggers>
+        </Style>
+        <Style x:Key="CollapsedStyle" TargetType="{x:Type Grid}">
+            <Setter Property="Visibility" Value="Collapsed"/>
+            <Style.Triggers>
+                <DataTrigger Binding="{Binding Path=ShowExpanded}" Value="true">
+                    <Setter Property="Visibility" Value="Visible"/>
+                </DataTrigger>
+            </Style.Triggers>
+        </Style>
+
+    </sap:ActivityDesigner.Resources>
+   
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0*"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+               
+        <Grid Style="{StaticResource CollapsedStyle}" Grid.ColumnSpan="2">
+            <TextBlock FontSize="12" FontStyle="Oblique" TextAlignment="Center">
+                <Span>EN-You activity is collapsed:)</Span>
+                <LineBreak/>
+                <Span>PT-Sua atividade esta recolhida :)</Span>
+            </TextBlock>
+        </Grid>
+
+        <Grid x:Name="MainGrid" Style="{StaticResource ExpandedStyle}" Grid.ColumnSpan="2">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <Grid x:Name="beGrid" Grid.Row="0" Margin="5">
+
+            </Grid>
+
+            <sapv:ExpressionTextBox 
+                Visibility="Collapsed"
+                Name="InputString"
+                ExpressionType="{x:Type s:String}"
+                OwnerActivity="{Binding ModelItem}" 
+                Expression="{Binding ModelItem.inputs[0], Mode=TwoWay, Converter={StaticResource ArgumentToExpressionConverter}, ConverterParameter=In}"/>
+            
+            <sapv:ExpressionTextBox 
+                Visibility="Collapsed"
+                Name="InputInt"
+                ExpressionType="{x:Type s:String}"
+                OwnerActivity="{Binding ModelItem}" 
+                Expression="{Binding ModelItem.input, Mode=TwoWay, Converter={StaticResource ArgumentToExpressionConverter}, ConverterParameter=In}"/>
+
+            <sapv:ExpressionTextBox 
+                Visibility="Collapsed"
+                Name="OutputTemplete"
+                Expression="{Binding Path=ModelItem.To2, Mode=TwoWay, Converter={StaticResource ArgumentToExpressionConverter}, ConverterParameter=Out }"
+                ExpressionType="s:String"
+                OwnerActivity="{Binding Path=ModelItem}"/>
+
+            <Button Visibility="Visible" x:Name="AddLineButton" Content="Add" Click="AddNewLine" Grid.Row="1" Width="100" HorizontalAlignment="Left" Margin="8"/>
+
+        </Grid>
+        
+    </Grid>
+
+</sap:ActivityDesigner>
