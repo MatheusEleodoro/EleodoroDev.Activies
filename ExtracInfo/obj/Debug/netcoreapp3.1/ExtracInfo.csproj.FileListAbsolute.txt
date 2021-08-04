@@ -1,0 +1,13 @@
+C:\Users\Matheus Eleodoro\source\repos\ExtracInfo\bin\Debug\netcoreapp3.1\ExtracInfo.exe
+C:\Users\Matheus Eleodoro\source\repos\ExtracInfo\bin\Debug\netcoreapp3.1\ExtracInfo.deps.json
+C:\Users\Matheus Eleodoro\source\repos\ExtracInfo\bin\Debug\netcoreapp3.1\ExtracInfo.runtimeconfig.json
+C:\Users\Matheus Eleodoro\source\repos\ExtracInfo\bin\Debug\netcoreapp3.1\ExtracInfo.runtimeconfig.dev.json
+C:\Users\Matheus Eleodoro\source\repos\ExtracInfo\bin\Debug\netcoreapp3.1\ExtracInfo.dll
+C:\Users\Matheus Eleodoro\source\repos\ExtracInfo\bin\Debug\netcoreapp3.1\ExtracInfo.pdb
+C:\Users\Matheus Eleodoro\source\repos\ExtracInfo\obj\Debug\netcoreapp3.1\ExtracInfo.csproj.AssemblyReference.cache
+C:\Users\Matheus Eleodoro\source\repos\ExtracInfo\obj\Debug\netcoreapp3.1\ExtracInfo.AssemblyInfoInputs.cache
+C:\Users\Matheus Eleodoro\source\repos\ExtracInfo\obj\Debug\netcoreapp3.1\ExtracInfo.AssemblyInfo.cs
+C:\Users\Matheus Eleodoro\source\repos\ExtracInfo\obj\Debug\netcoreapp3.1\ExtracInfo.csproj.CoreCompileInputs.cache
+C:\Users\Matheus Eleodoro\source\repos\ExtracInfo\obj\Debug\netcoreapp3.1\ExtracInfo.dll
+C:\Users\Matheus Eleodoro\source\repos\ExtracInfo\obj\Debug\netcoreapp3.1\ExtracInfo.pdb
+C:\Users\Matheus Eleodoro\source\repos\ExtracInfo\obj\Debug\netcoreapp3.1\ExtracInfo.genruntimeconfig.cache

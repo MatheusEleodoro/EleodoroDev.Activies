@@ -1,0 +1,9 @@
+C:\Users\Matheus Eleodoro\source\repos\ExtractContratoNumber\bin\Debug\GetContratoNumber.dll
+C:\Users\Matheus Eleodoro\source\repos\ExtractContratoNumber\bin\Debug\GetContratoNumber.pdb
+C:\Users\Matheus Eleodoro\source\repos\ExtractContratoNumber\bin\Debug\InfoExtrator.dll
+C:\Users\Matheus Eleodoro\source\repos\ExtractContratoNumber\bin\Debug\InfoExtrator.pdb
+C:\Users\Matheus Eleodoro\source\repos\ExtractContratoNumber\obj\Debug\ExtractContratoNumber.csproj.AssemblyReference.cache
+C:\Users\Matheus Eleodoro\source\repos\ExtractContratoNumber\obj\Debug\ExtractContratoNumber.csproj.CoreCompileInputs.cache
+C:\Users\Matheus Eleodoro\source\repos\ExtractContratoNumber\obj\Debug\ExtractContratoNumber.csproj.CopyComplete
+C:\Users\Matheus Eleodoro\source\repos\ExtractContratoNumber\obj\Debug\GetContratoNumber.dll
+C:\Users\Matheus Eleodoro\source\repos\ExtractContratoNumber\obj\Debug\GetContratoNumber.pdb

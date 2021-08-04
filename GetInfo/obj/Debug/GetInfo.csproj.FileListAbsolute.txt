@@ -1,0 +1,15 @@
+C:\Users\Matheus Eleodoro\source\repos\GetInfo\bin\Debug\GetInfo.dll
+C:\Users\Matheus Eleodoro\source\repos\GetInfo\bin\Debug\GetInfo.pdb
+C:\Users\Matheus Eleodoro\source\repos\GetInfo\bin\Debug\InfoExtrator.dll
+C:\Users\Matheus Eleodoro\source\repos\GetInfo\bin\Debug\InfoExtrator.pdb
+C:\Users\Matheus Eleodoro\source\repos\GetInfo\obj\Debug\GetInfo.csproj.AssemblyReference.cache
+C:\Users\Matheus Eleodoro\source\repos\GetInfo\obj\Debug\GetInfoDesigner.baml
+C:\Users\Matheus Eleodoro\source\repos\GetInfo\obj\Debug\GetInfoDesigner.g.cs
+C:\Users\Matheus Eleodoro\source\repos\GetInfo\obj\Debug\GetInfo_MarkupCompile.cache
+C:\Users\Matheus Eleodoro\source\repos\GetInfo\obj\Debug\GetInfo.g.resources
+C:\Users\Matheus Eleodoro\source\repos\GetInfo\obj\Debug\GetInfo.csproj.CoreCompileInputs.cache
+C:\Users\Matheus Eleodoro\source\repos\GetInfo\obj\Debug\GetInfo.csproj.CopyComplete
+C:\Users\Matheus Eleodoro\source\repos\GetInfo\obj\Debug\GetInfo.dll
+C:\Users\Matheus Eleodoro\source\repos\GetInfo\obj\Debug\GetInfo.pdb
+C:\Users\Matheus Eleodoro\source\repos\GetInfo\obj\Debug\GetInfo.Properties.Resources.resources
+C:\Users\Matheus Eleodoro\source\repos\GetInfo\obj\Debug\GetInfo.csproj.GenerateResource.cache

@@ -1,0 +1,6 @@
+C:\Users\Matheus Eleodoro\source\repos\InfoExtrator\bin\Debug\InfoExtrator.dll
+C:\Users\Matheus Eleodoro\source\repos\InfoExtrator\bin\Debug\InfoExtrator.pdb
+C:\Users\Matheus Eleodoro\source\repos\InfoExtrator\obj\Debug\InfoExtrator.csproj.CoreCompileInputs.cache
+C:\Users\Matheus Eleodoro\source\repos\InfoExtrator\obj\Debug\InfoExtrator.dll
+C:\Users\Matheus Eleodoro\source\repos\InfoExtrator\obj\Debug\InfoExtrator.pdb
+C:\Users\Matheus Eleodoro\source\repos\InfoExtrator\obj\Debug\InfoExtrator.csproj.AssemblyReference.cache

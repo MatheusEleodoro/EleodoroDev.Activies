@@ -1,0 +1,9 @@
+C:\Users\Matheus Eleodoro\source\repos\GetCPF\bin\Debug\GetCPF.dll
+C:\Users\Matheus Eleodoro\source\repos\GetCPF\bin\Debug\GetCPF.pdb
+C:\Users\Matheus Eleodoro\source\repos\GetCPF\bin\Debug\InfoExtrator.dll
+C:\Users\Matheus Eleodoro\source\repos\GetCPF\bin\Debug\InfoExtrator.pdb
+C:\Users\Matheus Eleodoro\source\repos\GetCPF\obj\Debug\GetCPF.csproj.AssemblyReference.cache
+C:\Users\Matheus Eleodoro\source\repos\GetCPF\obj\Debug\GetCPF.csproj.CoreCompileInputs.cache
+C:\Users\Matheus Eleodoro\source\repos\GetCPF\obj\Debug\GetCPF.csproj.CopyComplete
+C:\Users\Matheus Eleodoro\source\repos\GetCPF\obj\Debug\GetCPF.dll
+C:\Users\Matheus Eleodoro\source\repos\GetCPF\obj\Debug\GetCPF.pdb
