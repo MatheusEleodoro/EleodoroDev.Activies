@@ -4,3 +4,8 @@ C:\Users\Matheus Eleodoro\source\repos\InfoExtrator\obj\Debug\InfoExtrator.cspro
 C:\Users\Matheus Eleodoro\source\repos\InfoExtrator\obj\Debug\InfoExtrator.dll
 C:\Users\Matheus Eleodoro\source\repos\InfoExtrator\obj\Debug\InfoExtrator.pdb
 C:\Users\Matheus Eleodoro\source\repos\InfoExtrator\obj\Debug\InfoExtrator.csproj.AssemblyReference.cache
+C:\Users\Matheus Eleodoro\source\repos\EleodoroDev.Activies\InfoExtrator\bin\Debug\InfoExtrator.dll
+C:\Users\Matheus Eleodoro\source\repos\EleodoroDev.Activies\InfoExtrator\bin\Debug\InfoExtrator.pdb
+C:\Users\Matheus Eleodoro\source\repos\EleodoroDev.Activies\InfoExtrator\obj\Debug\InfoExtrator.csproj.CoreCompileInputs.cache
+C:\Users\Matheus Eleodoro\source\repos\EleodoroDev.Activies\InfoExtrator\obj\Debug\InfoExtrator.dll
+C:\Users\Matheus Eleodoro\source\repos\EleodoroDev.Activies\InfoExtrator\obj\Debug\InfoExtrator.pdb

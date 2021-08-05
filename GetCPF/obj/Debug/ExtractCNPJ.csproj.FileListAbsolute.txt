@@ -7,3 +7,12 @@ C:\Users\Matheus Eleodoro\source\repos\GetCPF\bin\Debug\GetCNPJ.dll
 C:\Users\Matheus Eleodoro\source\repos\GetCPF\bin\Debug\GetCNPJ.pdb
 C:\Users\Matheus Eleodoro\source\repos\GetCPF\obj\Debug\GetCNPJ.dll
 C:\Users\Matheus Eleodoro\source\repos\GetCPF\obj\Debug\GetCNPJ.pdb
+C:\Users\Matheus Eleodoro\source\repos\EleodoroDev.Activies\GetCPF\bin\Debug\GetCNPJ.dll
+C:\Users\Matheus Eleodoro\source\repos\EleodoroDev.Activies\GetCPF\bin\Debug\GetCNPJ.pdb
+C:\Users\Matheus Eleodoro\source\repos\EleodoroDev.Activies\GetCPF\bin\Debug\InfoExtrator.dll
+C:\Users\Matheus Eleodoro\source\repos\EleodoroDev.Activies\GetCPF\bin\Debug\InfoExtrator.pdb
+C:\Users\Matheus Eleodoro\source\repos\EleodoroDev.Activies\GetCPF\obj\Debug\ExtractCNPJ.csproj.AssemblyReference.cache
+C:\Users\Matheus Eleodoro\source\repos\EleodoroDev.Activies\GetCPF\obj\Debug\ExtractCNPJ.csproj.CoreCompileInputs.cache
+C:\Users\Matheus Eleodoro\source\repos\EleodoroDev.Activies\GetCPF\obj\Debug\ExtractCNPJ.csproj.CopyComplete
+C:\Users\Matheus Eleodoro\source\repos\EleodoroDev.Activies\GetCPF\obj\Debug\GetCNPJ.dll
+C:\Users\Matheus Eleodoro\source\repos\EleodoroDev.Activies\GetCPF\obj\Debug\GetCNPJ.pdb

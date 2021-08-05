@@ -1,4 +1,7 @@
-﻿using System;
+﻿/* @author Matheus Eleodoro <matheuseleodoro@gmail.com>
+ * Portifolio/Instagram @eleodoro.dev
+*/
+using System;
 using System.Activities.Presentation.View;
 using System.Collections.Generic;
 using System.Linq;
