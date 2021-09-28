@@ -10,9 +10,12 @@ using System.Activities;
 using System.ComponentModel;
 using InfoExtrator;
 using System.Activities.Presentation;
+using System.Windows;
 
 namespace ShowParagraph
 {
+ 
+
     [ActivityDesignerOptions(AllowDrillIn = false)]
     [Category("EleodoroDev.Text.Gets")]
     [DisplayName("Show Paragraphs")]
@@ -20,6 +23,10 @@ namespace ShowParagraph
    
     public class Show : NativeActivity
     {
+       
+        [Category("Options")]
+        public Sign Remove { get; set; }
+
         [Category("Output")]
         public OutArgument<string> To { get; set; }
         public List<string> innerText = new List<string>();
@@ -31,7 +38,7 @@ namespace ShowParagraph
                 innerText = (List<string>)context.Properties.Find("TEXTO");
             }
             catch { throw new Exception("Activity must be associated with \"Get Info scope \"\nAtividade precisa estar associado do \"Get Info scope\" "); }
-            To.Set(context, ExtractInfo.ShowParagraph(innerText));
+            To.Set(context, ExtractInfo.ShowParagraph(innerText,Remove));
         }
     }
 }

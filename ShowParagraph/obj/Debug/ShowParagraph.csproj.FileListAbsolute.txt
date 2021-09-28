@@ -11,8 +11,8 @@ C:\Users\Matheus Eleodoro\source\repos\EleodoroDev.Activies\ShowParagraph\bin\De
 C:\Users\Matheus Eleodoro\source\repos\EleodoroDev.Activies\ShowParagraph\bin\Debug\ShowParagraph.pdb
 C:\Users\Matheus Eleodoro\source\repos\EleodoroDev.Activies\ShowParagraph\bin\Debug\InfoExtrator.dll
 C:\Users\Matheus Eleodoro\source\repos\EleodoroDev.Activies\ShowParagraph\bin\Debug\InfoExtrator.pdb
-C:\Users\Matheus Eleodoro\source\repos\EleodoroDev.Activies\ShowParagraph\obj\Debug\ShowParagraph.csproj.AssemblyReference.cache
 C:\Users\Matheus Eleodoro\source\repos\EleodoroDev.Activies\ShowParagraph\obj\Debug\ShowParagraph.csproj.CoreCompileInputs.cache
 C:\Users\Matheus Eleodoro\source\repos\EleodoroDev.Activies\ShowParagraph\obj\Debug\ShowParagraph.csproj.CopyComplete
 C:\Users\Matheus Eleodoro\source\repos\EleodoroDev.Activies\ShowParagraph\obj\Debug\ShowParagraph.dll
 C:\Users\Matheus Eleodoro\source\repos\EleodoroDev.Activies\ShowParagraph\obj\Debug\ShowParagraph.pdb
+C:\Users\Matheus Eleodoro\source\repos\EleodoroDev.Activies\ShowParagraph\obj\Debug\ShowParagraph.csproj.AssemblyReference.cache

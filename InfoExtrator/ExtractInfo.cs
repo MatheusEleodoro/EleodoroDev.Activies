@@ -11,6 +11,11 @@ using System.Windows;
 
 namespace InfoExtrator
 {
+    /// <summary>
+    /// Enum for assing remove
+    /// </summary>
+    public enum Sign { none, docuSign };
+
     public class ExtractInfo
     {
         #region DECLARAÇÃO DE VARIAVEIS 
@@ -20,6 +25,8 @@ namespace InfoExtrator
         private const string breakLine = "<BreakParagraph>";
         #endregion
 
+
+        #region Methods
         public static List<string> GetParagraph(string text)
         {
             var matchCollection = Regex.Matches(text, "[^\r\n]+((\r|\n|\r\n)[^\r\n]+)*");
@@ -33,16 +40,46 @@ namespace InfoExtrator
             return collection;
         }
 
-        public static string ShowParagraph(List<String>paragraph)
+        public static string ShowParagraph(List<String> paragraph, Sign sign)
         {
             string result = "";
-            foreach(var it in paragraph)
+            int index = 0;
+            switch (sign)
             {
-                var index = paragraph.IndexOf(it);
-                result += $"{index}º paragraph = ({it.Replace(initLine, "").Replace(breakLine, "")})\n\n";
+                case Sign.none:
+                    
+                    foreach (var it in paragraph)
+                    {
+                        result += $"{index}º paragraph = ({it.Replace(initLine, "").Replace(breakLine, "")})\n\n";
+                        index++;
+                    }
+                    break;
+
+                case Sign.docuSign:
+                    var aux = 0;
+                    var tempParagraph = new List<string>();
+                    foreach (var it in paragraph)
+                    {
+                        if (!it.Contains("DocuSign Envelope ID:"))
+                            tempParagraph.Add(it);
+                        
+                        aux++;
+                    }
+                    paragraph = new List<string>(tempParagraph);
+
+                    foreach (var it in paragraph)
+                    {
+                        result += $"{index}º paragraph = ({it.Replace(initLine, "").Replace(breakLine, "")})\n\n";
+                        index++;
+                    }
+
+                    break;
+
+
             }
+
             return result;
-  
+
         }
 
         public static string GetInfoByArguments(string paragraph, string arg1, string arg2)
@@ -81,4 +118,5 @@ namespace InfoExtrator
 
         
     }
+    #endregion
 }

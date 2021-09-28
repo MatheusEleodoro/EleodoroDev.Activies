@@ -8,6 +8,25 @@
 >
     <sap:ActivityDesigner.Resources>
         <sapc:ArgumentToExpressionConverter x:Key="ArgumentToExpressionConverter" />
+
+        <Style x:Key="ExpandedStyle" TargetType="{x:Type Grid}">
+            <Setter Property="Visibility" Value="Visible"/>
+            <Style.Triggers>
+                <DataTrigger Binding="{Binding Path=ShowExpanded}" Value="true">
+                    <Setter Property="Visibility" Value="Collapsed"/>
+                </DataTrigger>
+            </Style.Triggers>
+        </Style>
+        <Style x:Key="CollapsedStyle" TargetType="{x:Type Grid}">
+            <Setter Property="Visibility" Value="Collapsed"/>
+            <Style.Triggers>
+                <DataTrigger Binding="{Binding Path=ShowExpanded}" Value="true">
+                    <Setter Property="Visibility" Value="Visible"/>
+                </DataTrigger>
+            </Style.Triggers>
+        </Style>
+
+
         <Style x:Key="WorkflowItemsPresenterStyle" TargetType="sap:WorkflowItemsPresenter">
             <Setter Property="SpacerTemplate">
                 <Setter.Value>
@@ -29,29 +48,45 @@
                 </Setter.Value>
             </Setter>
         </Style>
-    </sap:ActivityDesigner.Resources>
-    
-    <Grid>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="auto"/>
-            <RowDefinition Height="*"/>
-        </Grid.RowDefinitions>
-        <Grid.Resources>
-
-        </Grid.Resources>
         
-        <!-- Input 1 model -->
-        <sapv:ExpressionTextBox 
+       
+        
+    </sap:ActivityDesigner.Resources>
+
+    <Grid>
+
+        <Grid Style="{StaticResource ExpandedStyle}" Grid.ColumnSpan="2">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid.Resources>
+
+            </Grid.Resources>
+
+            <!-- Input 1 model -->
+            <sapv:ExpressionTextBox 
             Margin="0,0,0,10"
             HintText="Enter your text"
             Grid.Row="0"
             ExpressionType="s:String"
             OwnerActivity="{Binding ModelItem}" 
             Expression="{Binding ModelItem.argument, Mode=TwoWay, Converter={StaticResource ArgumentToExpressionConverter}, ConverterParameter=In}">
-        </sapv:ExpressionTextBox>
+            </sapv:ExpressionTextBox>
 
-        <sap:WorkflowItemsPresenter Margin="0,0,0,10" Grid.Row="2" Style="{StaticResource WorkflowItemsPresenterStyle}" AllowDrop="True"   Items="{Binding Path=ModelItem.Activities}"  HintText="Insert here">
+            <sap:WorkflowItemsPresenter Margin="0,0,0,10" Grid.Row="2" Style="{StaticResource WorkflowItemsPresenterStyle}" AllowDrop="True"   Items="{Binding Path=ModelItem.Activities}"  HintText="Insert here" >
 
-        </sap:WorkflowItemsPresenter>
+            </sap:WorkflowItemsPresenter>
+        </Grid>
+
+        <Grid Style="{StaticResource CollapsedStyle}" Grid.ColumnSpan="2">
+
+            <TextBlock Text="You activity is collapsed" TextAlignment="Center" FontStyle="Italic"></TextBlock>
+
+        </Grid>
+
+
     </Grid>
+
+ 
 </sap:ActivityDesigner>
